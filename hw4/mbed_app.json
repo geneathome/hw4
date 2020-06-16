@@ -1,0 +1,43 @@
+{
+
+    "config": {
+ 
+       "wifi-shield": {
+ 
+             "help": "Options are WIFI_ESP8266, WIFI_IDW0XX1",
+ 
+             "value": "WIFI_ESP8266"
+ 
+       },
+ 
+       "wifi-ssid": {
+ 
+             "help": "WiFi SSID",
+ 
+             "value": "\"ASUS_X01BDA\""
+ 
+       },
+ 
+       "wifi-password": {
+ 
+             "help": "WiFi Password",
+ 
+             "value": "\"ray88728\""
+ 
+       }
+ 
+    },
+ 
+    "target_overrides": {
+ 
+       "*": {
+ 
+          "platform.stdio-convert-newlines": true,
+ 
+          "esp8266.provide-default" : true
+ 
+       }
+ 
+    }
+ 
+ }
